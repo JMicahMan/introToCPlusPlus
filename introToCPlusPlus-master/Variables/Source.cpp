@@ -137,8 +137,9 @@ int main()
 	{
 		int x = 13;
 		int y = 24;
+		int temp = x;
 		x = y;
-		y = x -11;
+		y = temp ;
 		std::cout << "Number Swap)" << std::endl;
 		std::cout << "x is " << x << std::endl;
 		std::cout << "y is " << y << std::endl;
@@ -180,7 +181,7 @@ int main()
 	//long num8; //Not smaller than int.At least 32 bits.
 	//short num9; // Not smaller than char. At least 16 bits.
 	//long double num10; //Precision not less than double
-
+	
 
 	//Super Number Swap
 	int p = 34;

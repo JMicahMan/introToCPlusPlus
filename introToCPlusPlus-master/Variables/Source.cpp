@@ -130,30 +130,30 @@ int main()
 	std::cin >> e;
 
 
-	std::cout << "Average of Five)" <<a+b+c+d+e/5 << std::endl;
+	std::cout << "Average of Five)" <<(a+b+c+d+e)/5 << std::endl;
 	std::cout << a << "," << b << "," << c << "," << d << "," << e << std::endl;
 	std::cout << "avg: " << avg << std::endl;
 	//Number Swap
-
-	int x = 13;
-	int y = 24;
-	x = y;
-	y = x;
-	std::cout << "Number Swap)" << std::endl;
-	std::cout << "x is " << x << std::endl;
-	std::cout << "y is " << y << std::endl;
-
+	{
+		int x = 13;
+		int y = 24;
+		x = y;
+		y = x -11;
+		std::cout << "Number Swap)" << std::endl;
+		std::cout << "x is " << x << std::endl;
+		std::cout << "y is " << y << std::endl;
+	}
 	//Fun Facts for Your Age
 
 	int age = 0;
 	int month = 0;
 	std::cout << "How old are you" << std::endl;
-	std::cin >> age;
-	month = age * 12;
+	std::cin >>  age;
+	month =  age * 12;
 
 	// <You must add more lines to output to the terminal>
-	std::cout << "Howdy! You are " << age << " years old!";
-	std::cout << "You've been alive for" << month;
+	std::cout << "Howdy! You are " << age << " years old!"<< std::endl;
+	std::cout << "You've been alive for " << month<<" months"<<std::endl;
 
 	// Confronting Conventions
 
@@ -188,7 +188,7 @@ int main()
 	p = p + w;
 	w = p - w;
 	p = p - w;
-	std::cout << "Number Swap)  a:  " << a <<"b:  "<<b<< std::endl;
+	std::cout << "Number Swap)  p:  " << p <<"w:  "<<w<< std::endl;
 
 
 	system("Pause");

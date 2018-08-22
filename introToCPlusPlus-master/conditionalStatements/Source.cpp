@@ -191,6 +191,31 @@ int main()
 				}
 				break
 			}
+			break
+				case(4) //solution 5
+			{
+				std::cout << "Will do at home\n";
+			}
+			break
+				case(5) //solution 6
+			{
+				std::cout << "Will do at home\n";
+			}
+			break
+				case(6) //solution 7
+			{
+				std::cout << "Will do at home\n";
+			}
+			break
+				case(7) //solution 8
+			{
+				std::cout << "Will do at home\n";
+			}
+			break
+				case(8) //solution 9
+			{
+				std::cout << "Will do at home\n";
+			}
 		}
 	}
 	system("pause");

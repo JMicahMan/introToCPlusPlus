@@ -5,6 +5,8 @@
 int main ()
 {	
 		int grade;
+		grade = 10;
+
 		char gradeLetter;
 		//int a;
 		//int b;
@@ -28,6 +30,34 @@ int main ()
 		{
 			gradeLetter = 'f';
 		}
+
+
+		int input = 0;
+
+		std::cout << "input a number" << std::endl;
+		std::cin >> input;
+
+		if (input % 3 == 0)
+		{
+			std::cout << "fizz";
+		}
+
+		else if (input % 5 == 0)
+
+		{
+			std::cout << "buzz";
+		}
+
+		else if (input % 3 && 5 == 0)
+		{
+			std::cout << "fizzbuzz";
+		}
+		else
+		{
+			std::cout << input;
+		}
+
+
 		system("pause");
 			return 0;
 }

@@ -178,18 +178,22 @@ int main()
 		{
 			std::cout << "1";
 		}
+		break;
 		case 2:
 		{
 			std::cout << "2 or 3";
 		}
+		break;
 		case 3:
 		{
 			std::cout << "2 or 3";
 		}
+		break;
 		case 4:
 		{
 			std::cout << "4";
 		}
+		break;
 		default:
 		{
 			std::cout << "Invalid";
@@ -201,7 +205,7 @@ int main()
 	{
 		int x;
 		int y;
-		//x = (y = 0) ? y = 10 / x;
+		x = 0 ? y = 0 : y = 10;
 	}
 	break;
 	case 5: //solution 6
@@ -245,56 +249,79 @@ int main()
 		//grade = 10;
 		std::cout << "input month number" << std::endl;
 		std::cin >> a;
-		char month;
+		int month;
 		//int a;
 		//int b;
 		if (a == 1)
 		{
-			month = '31';
+			month = 31;
+			std::cout << month << std::endl;
+
 		}
 		else if (a == 2)
 		{
-			month = '28';
+			month = 28;
+			std::cout << month << std::endl;
+
 		}
 		else if (a == 3)
 		{
-			month = '31';
+			month = 31;
+			std::cout << month << std::endl;
+
 		}
 		else if (a == 4)
 		{
-			month = '30';
+			month = 30;
+			std::cout << month << std::endl;
+
 		}
 		else if (a == 5)
 		{
-			month = '31';
+			month = 31;
+			std::cout << month << std::endl;
+
 		}
 		else if (a == 6)
 		{
-			month = '30';
+			month = 30;
+			std::cout << month << std::endl;
 		}
 		else if (a == 7)
 		{
-			month = '31';
+			month = 31;
+			std::cout << month << std::endl;
+
 		}
 		else if (a == 8)
 		{
-			month = '31';
+			month = 31;
+			std::cout << month << std::endl;
+
 		}
 		else if (a == 9)
 		{
-			month = '30';
+			month = 30;
+			std::cout << month << std::endl;
+
 		}
 		else if (a == 10)
 		{
-			month = '31';
+			month = 31;
+			std::cout << month << std::endl;
+
 		}
 		else if (a == 11)
 		{
-			month = '30';
+			month = 30;
+			std::cout << month << std::endl;
+
 		}
 		else if (a == 12)
 		{
-			month = '31';
+			month = 31;
+			std::cout << month << std::endl;
+
 		}
 		else
 		{
@@ -305,7 +332,17 @@ int main()
 	break;
 	case 7: //solution 8
 	{
-		std::cout << "dont understand\n";
+		std::cout << "a. True" << std::endl;
+		std::cout << "b. False" << std::endl;
+		std::cout << "c. False" << std::endl;
+		std::cout << "d. True" << std::endl;
+		std::cout << "e. True" << std::endl;
+		std::cout << "f. False" << std::endl;
+		std::cout << "g. True" << std::endl;
+		std::cout << "h. False" << std::endl;
+		std::cout << "i. True" << std::endl;
+		std::cout << "j. True" << std::endl;
+
 	}
 	break;
 	case 8: //solution 9

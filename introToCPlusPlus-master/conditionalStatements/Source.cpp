@@ -159,7 +159,7 @@ int main()
 		break
 			case(2) //solution 3
 		{
-			std::cout << "Will do at home\n";
+			std::cout << "Need help\n";
 		}
 		break
 			case(3) //solution 4
@@ -194,27 +194,117 @@ int main()
 			break
 				case(4) //solution 5
 			{
-				std::cout << "Will do at home\n";
+				int x;
+				int y;
+				 x = y = 0 ? y = 10/x;
 			}
 			break
 				case(5) //solution 6
 			{
-				std::cout << "Will do at home\n";
+			 char input;
+   			 float numb1, numb2;
+
+    				std::cout << "enter either a + or a - or a * or a / depending on what kinda math you want to do\n";
+   				std::cin >> input;
+
+    			        std::cout << "gimme two numbers\n";
+                                std::cin >> numb1 >> numb2;
+
+                                switch(input)
+                                {
+                                case '+':
+                                std::cout << numb1+numb2<<std::endl;
+                                break;
+
+                                case '-':
+                                std::cout << numb1-numb2 <<std::endl;
+                                break;
+
+                                case '*':
+                                std::cout << numb1*numb2 << std::endl;
+                                break;
+
+                                case '/':
+                                std::cout << numb1/numb2 std::endl;
+                                break;
+
+                                default:
+            
+                                std::cout << "wrong math symbol\n";
+                                break;
 			}
 			break
 				case(6) //solution 7
 			{
-				std::cout << "Will do at home\n";
+				int a;
+			//grade = 10;
+			std::cout << "input month number" << std::endl;
+			std::cin >> a;
+			char month;
+			//int a;
+			//int b;
+			if (a == 1)
+			{
+				month = '31';
+			}
+			else if (a == 2)
+			{
+				month = '28';
+			}
+			else if (a == 3)
+			{
+				month = '31';
+			}
+			else if (a == 4)
+			{
+				month = '30';
+			}
+			else if (a == 5)
+			{
+				month = '31';
+			}
+			else if (a == 6)
+			{
+				month = '30';
+			}
+			else if (a == 7)
+			{
+				month = '31';
+			}
+			else if (a == 8)
+			{
+				month = '31';
+			}
+			else if (a == 9)
+			{
+				month = '30';
+			}
+			else if (a == 10)
+			{
+				month = '31';
+			}
+			else if (a == 11)
+			{
+				month = '30';
+			}
+			else if (a == 12)
+			{
+				month = '31';
+			}
+			else
+			{
+				std::cout << "Not a month, please pick between 1 and 12\n";
+			
 			}
 			break
 				case(7) //solution 8
 			{
-				std::cout << "Will do at home\n";
+				//dont understand
 			}
 			break
 				case(8) //solution 9
 			{
-				std::cout << "Will do at home\n";
+				//don't understand
 			}
 		}
 	}

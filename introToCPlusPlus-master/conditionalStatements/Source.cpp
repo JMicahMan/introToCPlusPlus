@@ -159,7 +159,7 @@ int main()
 		break
 			case(2) //solution 3
 		{
-			std::cout << "Need help\n";
+			std::cout << "don't understand\n";
 		}
 		break
 			case(3) //solution 4
@@ -196,7 +196,7 @@ int main()
 			{
 				int x;
 				int y;
-				 x = y = 0 ? y = 10/x;
+				 x = (y = 0) ? y = 10/x;
 			}
 			break
 				case(5) //solution 6
@@ -299,12 +299,17 @@ int main()
 			break
 				case(7) //solution 8
 			{
-				//dont understand
+				std::cout << "dont understand\n";
 			}
 			break
 				case(8) //solution 9
 			{
-				//don't understand
+				std::cout << "a. True" << std::endl;
+				std::cout << "b. True" << std::endl;
+				std::cout << "c. False" << std::endl;
+				std::cout << "d. True" << std::endl;
+				std::cout << "e. False" << std::endl;
+
 			}
 		}
 	}

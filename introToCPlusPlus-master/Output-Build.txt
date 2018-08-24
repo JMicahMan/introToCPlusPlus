@@ -1,4 +1,0 @@
-﻿1>------ Build started: Project: introccpjuanM, Configuration: Debug Win32 ------
-1>Source.cpp
-1>introccpjuanM.vcxproj -> C:\Users\s188041\source\repos\introccpjuanM\Debug\introccpjuanM.exe
-========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

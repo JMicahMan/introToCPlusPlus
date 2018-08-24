@@ -95,7 +95,7 @@ int main()
 
 	float degCelsius = 78.0f;
 	float degFahrenheit = 0.0f; // Modify this variable below.
-	//will do at home
+	degFahrenheit = (degCelsius*9.0) / 5.0 + 32.0;
 	std::cout << "Celsius to Fahrenheit)" << std::endl;
 	std::cout << "Celsius: " << degCelsius << std::endl;
 	std::cout << "Fahrenheit: " << degFahrenheit<< std::endl;
@@ -105,64 +105,91 @@ int main()
 	float rectWidth = 0.0f; // Modify this variable below.
 	float rectHeight = 0.0f; // Modify this variable below.
 	float rectArea = 0.0f; // Modify this variable below.
-						   // will do at home
+     
 	std::cout << "Area of a Rectangle)" << std::endl;
 	std::cout << "H: " << rectHeight << " , W: " << rectWidth << std::endl;
+	std::cin >> rectWidth;
+	std::cin >> rectHeight;
+	std::cout << rectArea + rectWidth * rectHeight << std::endl;
 	std::cout << "Area: " << rectArea << std::endl;
 
 	//Average of Five
 	float a, b, c, d, e; // Modify these variables below.
 	float avg; // Modify this variable below.
 	avg = a = b = c = d = e = 0.0f; // Initialize all to zero.
-									// will do at home
-	std::cout << "Average of Five)" << std::endl;
+	std::cout << "assign each letter a number" << std::endl;
+	std::cout << "a" << std::endl;
+	std::cin >> a;
+	std::cout << "b" << std::endl;
+	std::cin >> b;
+	std::cout << "c" << std::endl;
+	std::cin >> c;
+	std::cout << "d" << std::endl;
+	std::cin >> d;
+	std::cout << "e" << std::endl;
+	std::cin >> e;
+
+
+	std::cout << "Average of Five)" <<(a+b+c+d+e)/5 << std::endl;
 	std::cout << a << "," << b << "," << c << "," << d << "," << e << std::endl;
 	std::cout << "avg: " << avg << std::endl;
 	//Number Swap
-
-	int x = 13;
-	int y = 24;
-	// will do at home
-	std::cout << "Number Swap)" << std::endl;
-	std::cout << "x is " << x << std::endl;
-	std::cout << "y is " << y << std::endl;
-
+	{
+		int x = 13;
+		int y = 24;
+		int temp = x;
+		x = y;
+		y = temp ;
+		std::cout << "Number Swap)" << std::endl;
+		std::cout << "x is " << x << std::endl;
+		std::cout << "y is " << y << std::endl;
+	}
 	//Fun Facts for Your Age
 
 	int age = 0;
-	// will do at home
+	int month = 0;
+	std::cout << "How old are you" << std::endl;
+	std::cin >>  age;
+	month =  age * 12;
+
 	// <You must add more lines to output to the terminal>
-	std::cout << "Howdy! You are " << age << " years old!";
+	std::cout << "Howdy! You are " << age << " years old!"<< std::endl;
+	std::cout << "You've been alive for " << month<<" months"<<std::endl;
 
 	// Confronting Conventions
 
-	int age;
-	int bullet_count;
-	float dog_years;
-	int qty;
-	float shield_value;
-	float defense_matrix_cooldown;
-	int red_armor_value;
-	float red_armor_ratio;
-	int happiness;
-	int gandhi_aggression;
+	//int age;
+	//int bullet_count;
+	//float dog_years;
+	//int qty;
+	//float shield_value;
+	//float defense_matrix_cooldown;
+	//int red_armor_value;
+	//float red_armor_ratio;
+	//int happiness;
+	//int gandhi_aggression;
 
 	//The Right Tool for the Job
 
-	int num; // integer
-	float num2; // single precision floating point
-	double num3; // A double-precision floating point value.
-	char num4; // Typically a single octet (one byte). This is an integer type.
-	bool num5; // Stores either value true or false.
-	void; // Represents the absence of type.
-	wchar_t num7; // A wide character type
-	long num8; //Not smaller than int.At least 32 bits.
-	short num9; // Not smaller than char. At least 16 bits.
-	long double num10; //Precision not less than double
-
+	//int num; // integer
+	//float num2; // single precision floating point
+	//double num3; // A double-precision floating point value.
+	//char num4; // Typically a single octet (one byte). This is an integer type.
+	//bool num5; // Stores either value true or false.
+	//void; // Represents the absence of type.
+	//wchar_t num7; // A wide character type
+	//long num8; //Not smaller than int.At least 32 bits.
+	//short num9; // Not smaller than char. At least 16 bits.
+	//long double num10; //Precision not less than double
+	
 
 	//Super Number Swap
-	//will do at home
+	int p = 34;
+	int w = 49;
+	p = p + w;
+	w = p - w;
+	p = p - w;
+	std::cout << "Number Swap)  p:  " << p <<"w:  "<<w<< std::endl;
 
 
 	system("Pause");

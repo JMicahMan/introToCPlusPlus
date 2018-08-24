@@ -4,12 +4,12 @@
 
 int main()
 {
-	int Switchexcercise
-		std::cout << "input 0 for grades, 1 for fizzBuzz, 2 for addition and subtraction, 3 for game health\n"
+	int Switchexcercise;
+	std::cout << "input 0 for grades, 1 for fizzBuzz, 2 for addition and subtraction, 3 for game health\n";
 		std::cin >> Switchexcercise;
 	switch (Switchexcercise)
 	{
-		case 0
+	case 0:
 		{
 			int grade;
 			//grade = 10;

@@ -128,13 +128,17 @@ int main()
 	{
 	case 0: //solution 1
 	{
-		int y = 0;
+		int y = 7;
 		int x;
-		if (y == 0)
-		{
-			x = 0;
+		std::cout << "input x value\n";
+			std::cin >> x;
+			if (x == y);
+			{
+				x = 100;
+			}
+		
 			std::cout << x << std::endl;
-		}
+		
 	}
 	break;
 	case 1: //solution 2

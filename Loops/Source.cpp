@@ -4,6 +4,7 @@
 int main()
 {
 	{
+		//counting with C++
 		int i = 1;
 		for (int i = 0;  i <= 10; i++)
 		{
@@ -12,6 +13,7 @@ int main()
 
 	}
 	{
+		//exit using Q
 		char input;
 		do
 		{

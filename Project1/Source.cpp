@@ -164,7 +164,263 @@ int main()
 	break;
 	case 2: //solution 3
 	{
-		std::cout << "don't understand\n";
+		int a;
+		int b;
+		int c;
+		int d;
+		int e;
+		int sum;
+		std::cout << "Input 5 numbers\n";
+		std::cin >> a;
+		std::cin >> b;
+		std::cin >> c;
+		std::cin >> d;
+		std::cin >> e;
+		sum = a + b + c + d + e;
+		if (sum > 0)
+		{
+			if (a > b && a > c && a > d && a > e)
+			{
+				std::cout << a;
+				if (b > c && b > d && b > e)
+				{
+					std::cout << b;
+					if (c > d && c > e)
+					{
+						std::cout << c;
+						if (d > e)
+						{
+							std::cout << d;
+
+						}
+						else
+						{
+							std::cout << e;
+
+						}
+
+					}
+				}
+			}
+			else if (b > a && b > c && b > d && b > e)
+			{
+				std::cout << b;
+				if (a > c && a > d && a > e)
+				{
+					std::cout << a;
+					if (c > d && c > e)
+					{
+						std::cout << c;
+						if (d > e)
+						{
+							std::cout << d;
+
+						}
+						else
+						{
+							std::cout << e;
+
+						}
+
+					}
+				}
+				else if (c > a && c > b && c > d && c > e)
+				{
+					std::cout << c;
+					if (a > b && a > d && a > e)
+					{
+						std::cout << a;
+						if (b > d && b > e)
+						{
+							std::cout << b;
+							if (d > e)
+							{
+								std::cout << d;
+
+							}
+							else
+							{
+								std::cout << e;
+
+							}
+
+						}
+					}
+					else if (d > a && d > c && d > b && d > e)
+					{
+						std::cout << d;
+						if (a > c && a > b && a > e)
+						{
+							std::cout << a;
+							if (b > d && b > e)
+							{
+								std::cout << b;
+								if (c > e)
+								{
+									std::cout << c;
+
+								}
+								else
+								{
+									std::cout << e;
+
+								}
+
+							}
+						}
+						else if (e > a && e > b && e > c && e > d)
+						{
+							std::cout << e;
+							if (a > c && a > d && a > b)
+							{
+								std::cout << a;
+								if (b > a && b > d)
+								{
+									std::cout << b;
+									if (c > d)
+									{
+										std::cout << c;
+
+									}
+									else
+									{
+										std::cout << d;
+
+									}
+
+								}
+							}
+
+						}
+					}
+
+				}
+			}
+		}
+		else if (sum < 0)
+		{
+			if (a < b && a < c && a < d && a < e)
+			{
+				std::cout << a;
+				if (b < c && b < d && b < e)
+				{
+					std::cout << b;
+					if (c < d && c < e)
+					{
+						std::cout << c;
+						if (d < e)
+						{
+							std::cout << d;
+
+						}
+						else
+						{
+							std::cout << e;
+
+						}
+
+					}
+				}
+			}
+			else if (b < a && b < c && b < d && b < e)
+			{
+				std::cout << b;
+				if (a < c && a < d && a < e)
+				{
+					std::cout << a;
+					if (c < d && c < e)
+					{
+						std::cout << c;
+						if (d < e)
+						{
+							std::cout << d;
+
+						}
+						else
+						{
+							std::cout << e;
+
+						}
+
+					}
+				}
+				else if (c < a && c < b && c < d && c < e)
+				{
+					std::cout << c;
+					if (a < b && a < d && a < e)
+					{
+						std::cout << a;
+						if (b < d && b < e)
+						{
+							std::cout << b;
+							if (d < e)
+							{
+								std::cout << d;
+
+							}
+							else
+							{
+								std::cout << e;
+
+							}
+
+						}
+					}
+					else if (d < a && d < c && d < b && d < e)
+					{
+						std::cout << d;
+						if (a < c && a < b && a < e)
+						{
+							std::cout << a;
+							if (b < d && b < e)
+							{
+								std::cout << b;
+								if (c < e)
+								{
+									std::cout << c;
+
+								}
+								else
+								{
+									std::cout << e;
+
+								}
+
+							}
+						}
+						else if (e < a && e < b && e < c && e < d)
+						{
+							std::cout << e;
+							if (a < c && a < d && a < b)
+							{
+								std::cout << a;
+								if (b < a && b < d)
+								{
+									std::cout << b;
+									if (c < d)
+									{
+										std::cout << c;
+
+									}
+									else
+									{
+										std::cout << d;
+
+									}
+
+								}
+							}
+
+						}
+					}
+
+				}
+			}
+		}
+		else
+		{
+			std::cout << a << b << c << d << e << std::endl;
+		}
 	}
 	break;
 	case 3: //solution 4

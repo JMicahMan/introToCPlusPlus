@@ -50,40 +50,59 @@ int main()
 	}
 	//solution 2
 	{
-		int input;
-
-		std::cout << "input a number" << std::endl;
-		std::cin >> input;
-
-		if (input % 3 == 0)
+		for(int k=1:k<=100;k++)
 		{
-			std::cout << "fizz\n";
-		}
-
-		else if (input % 5 == 0)
-
-		{
-			std::cout << "buzz\n";
-		}
-
-		else if (input % 5 == 0 && input % 3 == 0)
-		{
-			std::cout << "fizzbuzz\n";
-		}
-		else
-		{
-			std::cout << input;
-		}
-
+       			 if(k%15==0)cout<<"FizzBuzz"<<endl;
+        	 	 else if(k%5==0)cout<<"Buzz"<<endl;
+       			 else if(k%3==0)cout<<"Fizz"<<endl;
+       			 else cout<<k<<endl;
+    }
 	}
 	{
 		//solution 3
-		std::cout << "will do at home\n";
+		  int answer = 0;
+     			for (int g = 0; g < 1000; g++){
+          		if ((g%3 == 0) || (g%5 == 0)) {answer += g;}
+				{
+     			cout << endl << "Project Euler (mispelled as Eula in excercise) answer is " << answer << endl;
+				}
 	}
 
 	{
 		//solution 4
-		std::cout << "will do at home\n";
+		//part 1
+		{
+		int a = 100;
+		while (a ==0) 
+		{
+			std::cout << a << std::endl;
+			a -=2;	
+		}
+		} 
+		//part 2
+		{
+		int k = 1;
+		while (k <= 100)
+		{
+			 if(k%15==0)cout<<"FizzBuzz"<<endl;
+        	 	 else if(k%5==0)cout<<"Buzz"<<endl;
+       			 else if(k%3==0)cout<<"Fizz"<<endl;
+       			 else cout<<k<<endl;
+			k++;
+		}
+		}
+		//part 3
+		{
+			int answer = 0;
+			int g = 0;
+			while (g < 1000)
+			{
+			if ((g%3 == 0) || (g%5 == 0)) {answer += g;}
+				{
+     			cout << endl << "Project Euler (mispelled as Eula in excercise) answer is " << answer << endl;
+				}
+			}
+		}
 	}
 	system("Pause");
 	return(0);

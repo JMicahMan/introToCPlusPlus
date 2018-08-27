@@ -58,9 +58,35 @@ int main()
 
 	{
 		//sol1
-		// correct
-		// wrong 
-		//correct
+		// True
+		// False 
+		// True
+		// False
+		// True
+		// True
+		// True
+		// False
+
+		//sol2
+		//will do at home
+
+		//sol 3
+		//
+		int data[] = { 10, 9 , 8 ,7 ,6 ,5 ,4 ,3 ,2 ,1 ,0 };
+		for (int i = 0; i <= 19; i ++)
+		{
+			for (int j = 0; j <= 19; i++)
+			{
+				if (data[i] > data[j])
+				{
+					int temp = data[i];
+					data[i] = data[j];
+					data[j] = temp;
+				}
+			}
+		}
+
+		
 
 
 

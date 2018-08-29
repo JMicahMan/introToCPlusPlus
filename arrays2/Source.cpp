@@ -85,7 +85,8 @@ int main()
 				}
 			}
 		}
-
+		//sol 4
+		//std::cout<<"gim,me five nmbers\n"
 		
 
 

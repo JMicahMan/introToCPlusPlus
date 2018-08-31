@@ -68,10 +68,13 @@ int main()
 		// False
 
 		//sol2
-		//will do at home
+		// a) 10
+		// b) 3
+		// c) 6
+		// d) 14
+		// e) 0
 
 		//sol 3
-		//
 		int data[] = { 10, 9 , 8 ,7 ,6 ,5 ,4 ,3 ,2 ,1 ,0 };
 		for (int i = 0; i <= 19; i ++)
 		{
@@ -85,13 +88,56 @@ int main()
 				}
 			}
 		}
-		//sol 4
-		//std::cout<<"gim,me five nmbers\n"
+		//sol4
+		{
+			int ray[5];
+			std::cout << "Give 5 numbers\n";
+			for (int i = 0; i < 5; i++)
+			{
+			std::cin >> ray[i];
+			std::cout << ray[i]<<std::endl;
+			}
+		}
+		//sol5
+		{
+			int t;
+			int ray[10];
+			std::cout << "Give 10 numbers\n";
+			for (int i = 0; i < 10; i++)
+			{
+				std::cin >> ray[i];
+				{
+					for (int k = 0; k < 10; k++)
+					{
+						if (ray[1] < ray[k])
+						{
+							t = ray[i];
+							ray[i] = ray[k];
+							ray[k] = t;
+						}
+					}
+				}
+			}
+		}
 		
+		//sol 6
+		int ma[3][3] = { { 1, 2, 3 },
+		{ 4, 5, 6 },
+		{ 7,8,9 } };
 
+		for (int i = 0; i < 3; i++)
+		{
+			for (int k = 0; k <3; k++)
+			{
+				if (ma[i] != 0)
+				{
+					std::cout << ma[i][k] << std::endl;
+				}
+			}
+		}
 
 
 	}
-	system("Pause");
+	system("pause");
 	return 0;
 }

@@ -3,42 +3,48 @@
 
 int main()
 {
-	int b = 100;
-	int c = 1;
-	int a = rand() % b + c;
-	char d;
-	bool e;
-	char f;
-	std::cout <<"think of a number between 1 - 100 ima try to guess it"<<std::endl;
+	int max = 100;
+	int min = 1;
+	int comp = rand() % (max - min + 1) + min;
+	char good;
+	bool truFal;
+	char yesNo;
+	std::cout << "Think of a number between 1 - 100 I will try to guess it" << std::endl;
 	{
-		std::cout << "ready (y/n)"<<std::endl;
-		std::cin >> f;
-		if (f == 'y')
+		std::cout << "ready (y/n)" << std::endl;
+		std::cin >> yesNo;
+		while (yesNo == 'y')
 		{
-			std::cout << "is this your number   "<<a<<std::endl;
-			std::cout << "is it high, low or true?"<<std::endl;
-			std::cin >> d;
-			if (d == 'high')
+			std::cout << "is this your number   " << comp << std::endl;
+			std::cout << "is it high, low or true?" << std::endl;
+			std::cin >> good;
+			if (good = 'high')
 			{
-				b = a - 1;
-				a;
-				e = false;
+				max = comp - 1;
+				comp = rand() % (max - min + 1) + min;
+				std::cout << "is this your number   " << comp << std::endl;
+				std::cout << "is it high, low or true?" << std::endl;
+				std::cin >> good;
+				truFal = false;
 			}
-			else if (d == 'low')
-			
+			else if (good = 'low')
+
 			{
-				c = a + 1;
-				a;
-				e = false;
+				min = comp + 1;
+				comp = rand() % (max - min + 1) + min;
+				std::cout << "is this your number   " << comp << std::endl;
+				std::cout << "is it high, low or true?" << std::endl;
+				std::cin >> good;
+				truFal = false;
 			}
 
-			else
+			else if (good = 'true')
 			{
-				std::cout << "i guessed it";
-				e = true;
+				std::cout << "i guessed it" << std::endl;
+				truFal = true;
 			}
 		}
-		else
+		if (good = 'n')
 		{
 
 		}

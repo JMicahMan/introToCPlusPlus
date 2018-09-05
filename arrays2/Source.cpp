@@ -55,7 +55,7 @@ int main()
 			}
 		}
 	}
-
+//Arrays homework
 	{
 		//sol1
 		// True
@@ -135,6 +135,44 @@ int main()
 				}
 			}
 		}
+	//sol7
+	}
+		int days[29][5];
+		
+			int row = 0;
+			for( int i = 0; i < 5; i++)
+			{
+				row = 0; 
+				for( int j = 0; j < 29; j++) 
+				{
+					row = row + days [row][collum]; 
+					System.out.println(row); 
+				}
+			}		
+			int collum;
+			for( int i = 0; i < 29; i++)
+			{
+				collum = 0;
+				for( int j = 0; j < 5; j++)
+				{
+					collum = collum + days [row] [col];
+					System.out.println(collum);
+				}
+			}	
+		
+	}	
+
+	//sol8
+	{
+
+	}
+
+
+	//sol9
+	{
+		
+	}
+	
 
 
 	}

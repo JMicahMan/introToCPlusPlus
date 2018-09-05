@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CharArray", "CharArray\Char
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arrayLoopsTest", "arrayLoopsTest\arrayLoopsTest.vcxproj", "{B387043F-8359-47C1-8E32-82AD318512F9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "funct", "funct\funct.vcxproj", "{077C7E91-E059-4108-9A26-3BD180703351}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{B387043F-8359-47C1-8E32-82AD318512F9}.Release|x64.Build.0 = Release|x64
 		{B387043F-8359-47C1-8E32-82AD318512F9}.Release|x86.ActiveCfg = Release|Win32
 		{B387043F-8359-47C1-8E32-82AD318512F9}.Release|x86.Build.0 = Release|Win32
+		{077C7E91-E059-4108-9A26-3BD180703351}.Debug|x64.ActiveCfg = Debug|x64
+		{077C7E91-E059-4108-9A26-3BD180703351}.Debug|x64.Build.0 = Debug|x64
+		{077C7E91-E059-4108-9A26-3BD180703351}.Debug|x86.ActiveCfg = Debug|Win32
+		{077C7E91-E059-4108-9A26-3BD180703351}.Debug|x86.Build.0 = Debug|Win32
+		{077C7E91-E059-4108-9A26-3BD180703351}.Release|x64.ActiveCfg = Release|x64
+		{077C7E91-E059-4108-9A26-3BD180703351}.Release|x64.Build.0 = Release|x64
+		{077C7E91-E059-4108-9A26-3BD180703351}.Release|x86.ActiveCfg = Release|Win32
+		{077C7E91-E059-4108-9A26-3BD180703351}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

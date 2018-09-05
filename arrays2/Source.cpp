@@ -67,115 +67,112 @@ int main()
 		// True
 		// False
 
-		//sol2
-		// a) 10
-		// b) 3
-		// c) 6
-		// d) 14
-		// e) 0
+//sol2
+// a) 10
+// b) 3
+// c) 6
+// d) 14
+// e) 0
 
-		//sol 3
-		int data[] = { 10, 9 , 8 ,7 ,6 ,5 ,4 ,3 ,2 ,1 ,0 };
-		for (int i = 0; i <= 19; i ++)
+//sol 3
+int data[] = { 10, 9 , 8 ,7 ,6 ,5 ,4 ,3 ,2 ,1 ,0 };
+for (int i = 0; i <= 19; i++)
+{
+	for (int j = 0; j <= 19; i++)
+	{
+		if (data[i] > data[j])
 		{
-			for (int j = 0; j <= 19; i++)
-			{
-				if (data[i] > data[j])
-				{
-					int temp = data[i];
-					data[i] = data[j];
-					data[j] = temp;
-				}
-			}
+			int temp = data[i];
+			data[i] = data[j];
+			data[j] = temp;
 		}
-		//sol4
-		{
-			int ray[5];
-			std::cout << "Give 5 numbers\n";
-			for (int i = 0; i < 5; i++)
-			{
-			std::cin >> ray[i];
-			std::cout << ray[i]<<std::endl;
-			}
-		}
-		//sol5
-		{
-			int t;
-			int ray[10];
-			std::cout << "Give 10 numbers\n";
-			for (int i = 0; i < 10; i++)
-			{
-				std::cin >> ray[i];
-				{
-					for (int k = 0; k < 10; k++)
-					{
-						if (ray[1] < ray[k])
-						{
-							t = ray[i];
-							ray[i] = ray[k];
-							ray[k] = t;
-						}
-					}
-				}
-			}
-		}
-		
-		//sol 6
-		int ma[3][3] = { { 1, 2, 3 },
-		{ 4, 5, 6 },
-		{ 7,8,9 } };
-
-		for (int i = 0; i < 3; i++)
-		{
-			for (int k = 0; k <3; k++)
-			{
-				if (ma[i] != 0)
-				{
-					std::cout << ma[i][k] << std::endl;
-				}
-			}
-		}
-	//sol7
 	}
-		int days[29][5];
-		
-			int row = 0;
-			for( int i = 0; i < 5; i++)
+}
+//sol4
+{
+	int ray[5];
+	std::cout << "Give 5 numbers\n";
+	for (int i = 0; i < 5; i++)
+	{
+		std::cin >> ray[i];
+		std::cout << ray[i] << std::endl;
+	}
+}
+//sol5
+{
+	int t;
+	int ray[10];
+	std::cout << "Give 10 numbers\n";
+	for (int i = 0; i < 10; i++)
+	{
+		std::cin >> ray[i];
+		{
+			for (int k = 0; k < 10; k++)
 			{
-				row = 0; 
-				for( int j = 0; j < 29; j++) 
+				if (ray[1] < ray[k])
 				{
-					row = row + days [row][collum]; 
-					System.out.println(row); 
+					t = ray[i];
+					ray[i] = ray[k];
+					ray[k] = t;
 				}
-			}		
-			int collum;
-			for( int i = 0; i < 29; i++)
-			{
-				collum = 0;
-				for( int j = 0; j < 5; j++)
-				{
-					collum = collum + days [row] [col];
-					System.out.println(collum);
-				}
-			}	
-		
-	}	
+			}
+		}
+	}
+}
+
+//sol 6
+int ma[3][3] = { { 1, 2, 3 },
+{ 4, 5, 6 },
+{ 7,8,9 } };
+
+for (int i = 0; i < 3; i++)
+{
+	for (int k = 0; k < 3; k++)
+	{
+		if (ma[i] != 0)
+		{
+			std::cout << ma[i][k] << std::endl;
+		}
+	}
+}
+//sol7
+{
+	int days[29][5];
+
+	int row = 0;
+	int collum = 0;
+	for (int i = 0; i < 5; i++)
+	{
+		row = 0;
+		for (int j = 0; j < 29; j++)
+		{
+			row = row + days[row][collum];
+			std::cout << row << std::endl;
+		}
+	}
+	for (int i = 0; i < 29; i++)
+	{
+		collum = 0;
+		for (int j = 0; j < 5; j++)
+		{
+			collum = collum + days[row][collum];
+			std::cout << collum << std::endl;
+		}
+	}
+}
+	}
+
 
 	//sol8
-	{
-
-	}
-
 
 	//sol9
 	{
-		
+	//keep track of 3 dragons,day of week, killos of food, 2d 3x7 array, input food yourself
+	//inttailze array with data already there
+	//aveg food eaten by all dragons each day
+	//collum for all dragons, row for 1 dragon
 	}
 	
-
-
-	}
 	system("pause");
 	return 0;
 }

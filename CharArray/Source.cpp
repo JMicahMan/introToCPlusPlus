@@ -51,7 +51,7 @@ int main()
 
 
 		//Homework
-		//uckfay isthay
+
 		//Solution 4
 		{
 			std::cout << '\a';
@@ -62,7 +62,6 @@ int main()
 			//A. [+]They was tring to intialize a char [+]they didnt give it enough stuff [+] char name[5] = "John"
 			//B. [+]They was tring to print name [+]they didnt give a name to print [+] char name[32] = "ColdSteelTheHedgehegKevineSucks"
 			//C. [+]They was trying to connect both they names [+]they gave kunth a 7 instead 6 [+] char name[7] = "Donald"; 			char surname[7] = "Knuth";strcat(name, surname);
-			//D. [+]REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 		}
 		//Solution 13
 		{

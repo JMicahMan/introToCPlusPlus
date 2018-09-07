@@ -107,71 +107,20 @@ int main()
 		print("1,2,2,3,2,1 in that order on desending lines\n");
 	}
 
-	//solution 2
-	{
-
-	}
-
-	//solution 3
-	{
-
-	}
-
-	//solution 4
-	{
-
-	}
+	
 
 	//solution 5
 	{
 
 	}
-
-	//solution 6
-	{
-
-	}
-
-	//solution 7
-	{
-
-	}
-
-	//solution 8
-	{
-
-	}
-
-	//solution 9
-	{
-
-	}
+	
 
 	//solution 10
 	{
 
 	}
 
-	//solution 11
-	{
-
-	}
-
-	//solution 12
-	{
-
-	}
-
-	//solution 13
-	{
-
-	}
-
-	//solution 14
-	{
-
-	}
-
+	
 	//solution 15
 	{
 

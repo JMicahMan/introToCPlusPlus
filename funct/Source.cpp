@@ -1,4 +1,5 @@
 #include <iostream>
+#include <ctime>
 #include <string>
 
 int print(std::string input)
@@ -60,6 +61,11 @@ void revArray(int arry[], int size)
 	
 }
 
+void coinFlip(int coin)
+{
+	int HorT = 1 + rand() % 2;
+	return HorT;
+}
 int main()
 {
 	print("hello\n");
@@ -111,6 +117,22 @@ int main()
 
 	//solution 5
 	{
+		int flipTimes = 0;
+		int HorT = 0;
+		string Ressualt = "";
+		std::cout<<"Toss coin sevral times\n";
+		std::cin>>flipTimes;
+		srand ((time(0)));
+		
+		for (int i = 1; i <=flipTimes; i++)
+		{
+			HorT = coinFlip();
+			if (HorT ==1)
+				Ressault = "head";
+			else
+				Ressault = "tail";
+			
+			std::cout<<Ressault<<std::endl;
 
 	}
 	

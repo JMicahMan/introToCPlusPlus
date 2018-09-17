@@ -1,7 +1,20 @@
 #include <iostream>
 #include <string>
 
+void RevString(char* array, int size)
+{
+  for (int i = 0; i < size/2; i++) 
+    {
+        int temp = array[i];
+        array[i] = array[size-i-1];
+        array[size-i-1] = temp;
+    }	
+}
 
+int CountEven(int* array, int array_len)
+{
+	
+}
 void ReverseAry(int*ptr_nums, int size)
 {
 
@@ -53,7 +66,7 @@ int main()
 	{
 		//solution 6
 
-		//a)
+		//a) see void RevString function
 
 		//b)
 

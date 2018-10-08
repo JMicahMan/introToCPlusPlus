@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{D5FF112E-FEFE-4E36-98E6-9CE58FCE035E}</ProjectGuid>
-    <RootNamespace>Inheritance</RootNamespace>
+    <ProjectGuid>{824EDBD5-3E08-4DF5-8358-1E6900941ACE}</ProjectGuid>
+    <RootNamespace>Templets</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,17 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Bike.cpp" />
-    <ClCompile Include="Car.cpp" />
-    <ClCompile Include="Plane.cpp" />
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="TransportVehicle.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Bike.h" />
-    <ClInclude Include="Car.h" />
-    <ClInclude Include="Plane.h" />
-    <ClInclude Include="TransportVehicle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

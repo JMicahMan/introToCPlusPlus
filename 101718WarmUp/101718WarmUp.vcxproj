@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{053A12B1-D08C-4B02-87D6-8B2A429E38D7}</ProjectGuid>
-    <RootNamespace>Llist</RootNamespace>
+    <ProjectGuid>{EFBB525F-8D5D-4B2C-8857-DE40AFB03E2F}</ProjectGuid>
+    <RootNamespace>My101718WarmUp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -114,10 +114,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="LinkedList.h" />
-    <ClInclude Include="LinkedListIterator.h" />
-  </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
   </ItemGroup>

@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 #include <cstdlib>
-#include "Listit.h"
+#include "LinkedListIterator.h"
 template <typename T>
 class LinkedList
 {
@@ -17,8 +17,8 @@ public:
 	void insertFirst(const T&) = 0;
 	void insertLast(const T&) = 0;
 	void deleteNode(const T&) = 0;
-	Listit T begin();
-	Listit T end();
+	LinkedListIterator T begin();
+	LinkedListIterator T end();
 	LinkedList();
 	LinkedList(const LinkedList T&);
 	LinkedList();
